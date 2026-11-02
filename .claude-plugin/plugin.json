@@ -1,0 +1,27 @@
+{
+  "name": "case-velocity",
+  "version": "1.0.0",
+  "displayName": "Case Velocity",
+  "description": "Case Velocity for Claude: connects your firm's Case Velocity case management site (casevelocity.ai) to Claude, so the work an attorney asks for on the site (case updates from email and calendar, Drive case folders, drafts and filing packages, team chat tasks) is done in Claude and reported back for review. Includes LVAI Pro legal research, verification and drafting for subscribing firms.",
+  "author": {
+    "name": "Legal Velocity, Inc.",
+    "email": "admin@legalvelocity.ai"
+  },
+  "homepage": "https://casevelocity.ai",
+  "repository": "https://github.com/mblanchlaw-stack/case-velocity-plugin",
+  "license": "proprietary",
+  "privacyPolicyUrl": "https://casevelocity.ai/privacy",
+  "termsOfServiceUrl": "https://casevelocity.ai/terms",
+  "documentationUrl": "https://casevelocity.ai/help",
+  "supportUrl": "mailto:admin@legalvelocity.ai",
+  "icon": ".claude-plugin/icon.svg",
+  "keywords": [
+    "legal",
+    "case-management",
+    "law-firm",
+    "practice-management",
+    "drafting",
+    "calendar",
+    "lvai"
+  ]
+}
