@@ -1,5 +1,5 @@
 ---
-description: "Set up the scheduled tasks that keep Case Velocity current"
+description: "Finish setting up Case Velocity: check every connection and schedule the automatic checks"
 ---
 
-Set up Case Velocity's scheduled tasks with the **keep-up-to-date** skill of this plugin.
+Run Case Velocity's guided setup with the **setup** skill of this plugin.

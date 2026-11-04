@@ -6,8 +6,11 @@ updates, draft this motion, put this note in the case folder, tell Tiffany to ca
 firm's own Claude account and connections, then reports the result back to the site, where the attorney reviews, accepts or
 dismisses it. Nothing Claude proposes is filed, served or sent on its own.
 
-Installing the plugin adds the **Case Velocity** connector (`https://casevelocity.ai/mcp`). You sign in once with your Case
-Velocity account (OAuth); no API key is needed.
+**One install does it all.** Click **Add**, then **Sign in** next to Case Velocity in Claude's "Finish setting up" window,
+and press **Allow** on the Case Velocity page. That brings the **Case Velocity** connector (`https://casevelocity.ai/mcp`) and
+**LVAI Pro**, the legal skills included with every Case Velocity subscription, under the same sign-in. No API key, and no
+second plugin or connector. Then type `/case-velocity:setup` once: Claude checks your connections and schedules the
+automatic checks.
 
 ## Requirements
 
@@ -22,7 +25,35 @@ Velocity account (OAuth); no API key is needed.
 | --- | --- |
 | `/case-velocity:check` | Runs Case Velocity's full check now: the attorney's waiting requests, new email and calendar items for open cases, case folders, drafts in the queue, team chat tasks. |
 | `/case-velocity:pickup` | Runs the quick hourly pickup: waiting requests, mail from the last two hours, and the drafting queue. |
-| `/case-velocity:setup` | Sets up the two scheduled tasks that keep the site current (a full check every 12 hours, a pickup every hour). |
+| `/case-velocity:setup` | Guided setup: checks the Case Velocity sign-in, the LVAI Pro license, Gmail, Google Calendar, Google Drive and Midpage/Descrybe, schedules the full check (every 12 hours) and the pickup (every hour), and shows what is left. |
+
+### LVAI Pro legal commands (included with Case Velocity)
+
+| Command | What it does |
+| --- | --- |
+| `/case-velocity:analyze-form` | Analyze a PDF form: list every fillable field and its structure |
+| `/case-velocity:binder` | Build a verified Citation Binder (Word) from a brief or memorandum |
+| `/case-velocity:calendar-dates` | Calendar every critical date of a real estate transaction |
+| `/case-velocity:case-summary` | Produce a detailed summary and analysis of a court opinion |
+| `/case-velocity:closing-docs` | Generate the closing documents for a NJ or NY transaction |
+| `/case-velocity:correct` | Fix the issues found by /verify and re-verify the corrected document |
+| `/case-velocity:deep-research` | Comprehensive deep legal research with full opinion analysis |
+| `/case-velocity:discovery` | Generate discovery documents (interrogatories, RFPs, RFAs) |
+| `/case-velocity:draft` | Draft a legal document from research and materials |
+| `/case-velocity:exhibit-binder` | Merge exhibits into one tabbed, indexed, page-numbered PDF binder |
+| `/case-velocity:exhibits` | Attach the exhibits a certification or affirmation refers to: matched to the files, tabbed, merged behind it |
+| `/case-velocity:extract-data` | Extract structured financial and personal data from uploaded documents |
+| `/case-velocity:fill-form` | Fill a PDF form from source documents in your workspace |
+| `/case-velocity:hyperlink` | Hyperlink every case, statute and rule citation in a .docx |
+| `/case-velocity:intake` | Process a real estate contract and rider for a new transaction |
+| `/case-velocity:license` | Show your LVAI Pro license: licensee, seat, plan, expiry and status |
+| `/case-velocity:prepare-rider` | Generate a buyer's or seller's contract rider (NJ or NY) |
+| `/case-velocity:research` | Research case law on a legal issue with verified citations |
+| `/case-velocity:title-review` | Review a title binder or commitment and generate the closing package |
+| `/case-velocity:verify` | Verify citations and legal claims in a brief or memorandum |
+
+LVAI Pro's research and citation checks read the actual court opinions through the firm's own **Midpage** or **Descrybe**
+connector (connect one in Claude: Customize → Connectors → Discover). With both connected, every authority is cross-checked on both.
 
 ## What the plugin runs, sends and fetches
 

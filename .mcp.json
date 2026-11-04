@@ -1,1 +1,8 @@
-{"mcpServers":{"case-velocity":{"type":"http","url":"https://casevelocity.ai/mcp"}}}
+{
+  "mcpServers": {
+    "case-velocity": {
+      "type": "http",
+      "url": "https://casevelocity.ai/mcp"
+    }
+  }
+}

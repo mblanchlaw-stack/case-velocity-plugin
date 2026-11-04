@@ -1,8 +1,8 @@
 {
   "name": "case-velocity",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Case Velocity",
-  "description": "Case Velocity for Claude: connects your firm's Case Velocity case management site (casevelocity.ai) to Claude, so the work an attorney asks for on the site (case updates from email and calendar, Drive case folders, drafts and filing packages, team chat tasks) is done in Claude and reported back for review. Includes LVAI Pro legal research, verification and drafting for subscribing firms.",
+  "description": "Case Velocity for Claude, all in one install: connects your firm's Case Velocity case management site (casevelocity.ai) to Claude so the work attorneys ask for on the site (case updates from email and calendar, Drive case folders, drafts and filing packages, team chat tasks) is done in Claude and reported back for review, and brings all 20 LVAI Pro legal commands (research, citation verification, drafting, NJ/NY real estate) under the same sign-in. Run /case-velocity:setup once after installing.",
   "author": {
     "name": "Legal Velocity, Inc.",
     "email": "admin@legalvelocity.ai"
@@ -22,6 +22,8 @@
     "practice-management",
     "drafting",
     "calendar",
-    "lvai"
+    "lvai",
+    "research",
+    "verification"
   ]
 }
